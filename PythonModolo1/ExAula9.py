@@ -1,0 +1,7 @@
+nome = input('Digite seu nome completo: '.strip())
+nome = nome.upper()
+print('Seu nome em letra maiuscula:{}'.format(nome))
+nome = nome.lower()
+print('Seu nome com letras minusculas:{}'.format(nome))
+nome = len(nome)
+print('Seu nome contém {} letras'.format(nome))
