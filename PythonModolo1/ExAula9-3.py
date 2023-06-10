@@ -1,3 +1,7 @@
 num = input('Digite um numero de 0 a 9999: ')
 print('Ex: Digite um número:1834')
-print('Uninade:{}'.format(num(0:)))
+print('Seu numero digitado foi {}, e ele tem;\n'.format(num))
+print('unidade:{}\n'.format(num[3]))
+print('dezena:{}\n'.format(num[2]))
+print('centena:{}\n'.format(num[1]))
+print('milhar:{}\n'.format(num[0]))
