@@ -1,5 +1,5 @@
-cidade = input('Digite o nome de uma cidade: ')
-cidade = cidade.split()
-cidade = 'Santo' in cidade[0]
+nome = input('Digite seu nome completo:')
+nome = nome.title()
+nome = 'Silva' in nome
 
-print(f'O resultade se tem "Santo" no começo do nome é:{cidade}')
+print(f'Seu nome contém a palavra Silva?:{nome}')

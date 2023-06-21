@@ -1,4 +1,6 @@
-frase = input('Digit uma frase: ')
+nome = input('Digite seu nome completo: ')
 
-frase = frase.count('a')
-print(frase)
+nome = nome.split()
+
+print(f'Primeiro nome:{nome[0]}')
+print(f'Ultimo nome:{nome[-1]}')

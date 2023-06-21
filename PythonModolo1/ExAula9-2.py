@@ -1,3 +1,11 @@
-nome = input('Digite seu nome completo: ')
-nome = nome.split()
-print('Seu primeiro nome contém {} letras'.format(len(nome[0])))
+num = int(input('Digite um numero de 0 a 9999: '))
+print('Ex: 1834\n')
+u = num // 1 % 10
+d = num // 10 % 10
+c = num // 100 % 10
+m = num // 1000 % 10
+print('Seu numero digitado foi {}, e ele tem;'.format(num))
+print('unidade:{}'.format(u))
+print('dezena:{}'.format(d))
+print('centena:{}'.format(c))
+print('milhar:{}'.format(m))

@@ -1,5 +1,5 @@
-nome = input('Digite seu nome completo:')
-
-nome = 'Silva' in nome
-
-print(f'Seu nome contém a palavra Silva?:{nome}')
+frase = input('Digite uma frase: ')
+frase = frase.count('a')
+print(f'A letra "a" apareceu {frase} vezes!')
+print(f'A letra "a" apareceu {frase[0]} no começo!')
+print(f'A letra "a" apareceu {frase[-1]} no final!')

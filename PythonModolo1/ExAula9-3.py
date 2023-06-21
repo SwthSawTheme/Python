@@ -1,7 +1,5 @@
-num = input('Digite um numero de 0 a 9999: ')
-print('Ex: Digite um número:1834\n')
-print('Seu numero digitado foi {}, e ele tem;'.format(num))
-print('unidade:{}'.format(num[3]))
-print('dezena:{}'.format(num[2]))
-print('centena:{}'.format(num[1]))
-print('milhar:{}'.format(num[0]))
+cidade = input('Digite o nome de uma cidade: ')
+cidade = cidade.split()
+cidade = 'Santo' in cidade[0]
+
+print(f'O resultade se tem "Santo" no começo do nome é:{cidade}')
