@@ -1,5 +1,6 @@
-frase = input('Digite uma frase: ')
-frase = frase.count('a')
-print(f'A letra "a" apareceu {frase} vezes!')
-print(f'A letra "a" apareceu {frase[0]} no começo!')
-print(f'A letra "a" apareceu {frase[-1]} no final!')
+frase = str(input('Digite uma frase: ')).upper()
+print('A letra A apareceu {} vezes!'.format(frase.count("A")))
+
+print('A primeira letra A apareceu na posição {}'.format(frase.find("A")))
+
+print('A ultima letra A apareceu na posição {}'.format(frase.rfind("A")))
