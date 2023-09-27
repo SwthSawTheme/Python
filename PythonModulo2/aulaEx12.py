@@ -1,3 +1,5 @@
+import time
+
 print('\n\nBem vindo ao bancocn, o banco onde proporcionar\ndívidas a nossos clientes, é a nossa maior alegria!\n')
 print('Sou a assístente bancaria Gabrielli. Qual o seu nome?\n')
 
@@ -22,5 +24,7 @@ else:
     print(f'Você conseguiu aprovação para seu financiamento {nome}, estou muito feliz!\n!Embreve entraremos em contato para resolução contratual!')
     print(f'\nSegue abaixo os detalhes do contrato;\nSua renda mensal é de {renda:.2f}R$\nO valor da casa é de {casa:.2f}R$\nO número de parcelas é de {parcela} meses!\nO valor da parcela ficou em {valor:.2f}R$ a pagar!')
     
-
+input('\n\n\nPressione enter para sair...')
+print('Até mais!!')
+time.sleep(5)
 
