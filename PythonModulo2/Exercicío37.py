@@ -2,7 +2,7 @@
 # escolher qual será a base de conversão;
 
 n1 = int(input('Digite um número inteiro que deseja converter: '))
-n2 = int(input('Escolha a base a ser convertida: [1]Binaria [2]Octal [3]Hexadecimal: '))
+n2 = int(input('Escolha a base a ser convertida: \n[1]Binaria \n[2]Octal \n[3]Hexadecimal: '))
 
 if n2 == 1:
     binario = bin(n1)[1:]
